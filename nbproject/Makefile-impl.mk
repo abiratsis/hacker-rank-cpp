@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=HackerRankTest
+PROJECTNAME=hacker-rank-cpp
 
 # Active Configuration
 DEFAULTCONF=Debug
