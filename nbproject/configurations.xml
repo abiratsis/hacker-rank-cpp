@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>arrays.hpp</itemPath>
+      <itemPath>code_sprints.hpp</itemPath>
+      <itemPath>lists.hpp</itemPath>
+      <itemPath>strings.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>arrays.cpp</itemPath>
+      <itemPath>code_sprints.cpp</itemPath>
+      <itemPath>lists.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>strings.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="arrays.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="arrays.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="code_sprints.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="code_sprints.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lists.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="lists.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="strings.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="strings.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="arrays.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="arrays.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="code_sprints.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="code_sprints.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lists.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="lists.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="strings.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="strings.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
